@@ -83,7 +83,7 @@ while status0:
     print(f"Gold Rate in 1 Gram: \t{gold_price_per_gram}")
     print(f"Gold in Gram: \t{product_weight}")
     rate = gold_price_per_gram*product_weight
-    print(f"Total Purchase rate:\t {rate}")
+    print(f"Total Purchase rate:\t {rate}")1
     if vaccination == True:
         print(f"You are eligible for discount your net discount percent is : \t{percent}")
     else:

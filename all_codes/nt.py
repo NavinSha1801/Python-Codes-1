@@ -1,17 +1,6 @@
-num = int(input("Enter the size of pattern: "))
-# for i in range(num+1):
-#     # for k in range(i+1):
-#     #     print('*',end='')
-#     for j in range(num+1):
-#         if j >= num-i:
-#             print('*',end='')
-#         else:
-#             print(" ",end='')
-#     print('')
-for i in range(num+1):
-    for j in range(num+1):
-        if i == num or i == 0 or j == 0 or j == num:
-            print("* ",end="")
-        else:
-            print("  ",end='')
-    print("")
+'''
+file_name_var = open('path/locate/to/file','choice you want to do with file{a/r/w}')
+Example:
+'''
+my_file = open('D:\\git_files\\Python-Codes-1\\all_codes\\2022-06-01','a')
+
